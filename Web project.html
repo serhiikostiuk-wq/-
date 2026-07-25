@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Вказує, що кодування тексту буде відбуватися за стандартом UTF-8. Цей стандарт використовується у всіх сучасних сайтах -->
+    <meta charset="UTF-8">
+
+    <!-- Дуже важливі теги для використання сайтів на різних девайсах: 
+        meta name="viewport - Враховуй реальний розмір екрану розистувача: телефону, планшета або ноутбука
+        content="width=device-width" - Ширина сторінки повинна дорівнювати ширині пристрою
+        initial-scale=1.0 - Означає початковий масштаб сторінки. 1.0 = 100%.
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Заголовок сторінки -->
+    <title>QA Testing Solutions</title>
+
+    <!-- CSS styles для сторінки -->
+    <style>
+
+        /* General page styling - застосування стилів та шрифтів для body */
+        body {   
+
+            font-family: Arial, sans-serif; /* Шрифт */
+
+            margin: 0; /* прибирає стандартні відступи браузера */
+
+            padding: 0; /* прибирає внутрішні відступи */
+
+            background-color: #f4f4f4; /* світло-сірий фон сторінки */
+
+        }
+
+        /* Header section - стиль для header */
+        header { 
+
+            background-color: #222; /* колір фону */
+
+            color: white; /* колір тексту */
+
+            text-align: center; /* вирівнювання по центру */
+
+            padding: 25px; /* внутрішні відступи */
+
+        }
+
+        /* Navigation menu - стилі для навігаційних посилань */
+        nav a { 
+
+            color: white; /* колір тексту */
+
+            margin: 10px; /* зовнішні відступи */
+
+            text-decoration: none; /* прибирає підкреслення */
+
+        }
+
+        /* Main landing section (Hero) */
+        .hero { 
+
+            text-align: center; /* вирівнювання по центру */
+
+            padding: 60px; /* внутрішні відступи */
+
+            background-color: white; /* фон */
+
+        }
+
+        /* Button style */
+        button { 
+
+            background-color: #333; /* фон кнопки */
+
+            color: white; /* колір тексту */
+
+            padding: 12px 25px; /* вертикальні та горизонтальні відступи */
+
+            border: none; /* без рамки */
+
+            cursor: pointer; /* курсор "рука" */
+
+        }
+
+        /* Content sections */
+        section { 
+
+            background-color: white; /* фон */
+
+            margin: 20px; /* зовнішні відступи */
+
+            padding: 30px; /* внутрішні відступи */
+
+        }
+
+        /* Footer section */
+        footer { 
+
+            text-align: center; /* вирівнювання */
+
+            background-color: #222; /* фон */
+
+            color: white; /* текст */
+
+            padding: 15px; /* внутрішні відступи */
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+    <!-- Заголовок та навігація -->
+    <header>
+
+        <h1>QA Testing Solutions</h1>
+
+        <!-- Навігаційні посилання -->
+        <nav>
+
+            <a href="#about">About</a> <!-- навігація -->
+            <a href="#services">Services</a> <!-- навігація -->
+            <a href="#contact">Contact</a> <!-- навігація -->
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- Hero section -->
+        <section class="hero"> 
+            <!-- hero = головний перший блок сторінки (landing section) -->
+
+            <h2>Improve Your Product Quality</h2>
+
+            <p>
+                Professional software testing services
+                for stable and reliable applications.
+            </p>
+
+            <button>
+                Get Started
+            </button>
+
+        </section>
+
+
+        <!-- About section -->
+        <section id="about">
+
+            <h2>About</h2>
+
+            <p>
+                We provide functional testing,
+                regression testing and compatibility testing
+                for web and mobile applications.
+            </p>
+
+        </section>
+
+
+        <!-- Services section -->
+        <section id="services">
+           <!-- Заголовок -->
+            <h2>Testing Services</h2>
+            <!-- Список -->
+            <ul>
+                <li>Functional Testing</li>
+                <li>Regression Testing</li>
+                <li>Mobile Testing</li>
+                <li>Compatibility Testing</li>
+            </ul>
+
+        </section>
+
+
+        <!-- section id="contact" Щоб можна було перейти по сторінці-->
+        <section id="contact">
+
+            <h2>Contact</h2>
+
+            <p>
+                Email: qa@example.com
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer: це семантичний тег нижньої частини сторінки, в якому залишають: контаксти, посилання або службову інформацію -->
+    <footer>
+
+        <!-- Текст-->
+        <p>
+            © 2026 QA Testing Solutions
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
